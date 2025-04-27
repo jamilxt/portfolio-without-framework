@@ -31,6 +31,20 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.11.0</version>
         </plugin>
+
+        <!-- Apache Maven Jar Plugin -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.3.0</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <mainClass>com.pondit.portfolio.PortfolioApplication</mainClass>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
