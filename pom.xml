@@ -14,7 +14,12 @@
   </properties>
 
   <dependencies>
-    <!-- TODO: add required dependencies -->
+    <!-- Apache Tomcat Embed -->
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-core</artifactId>
+      <version>10.1.8</version>
+    </dependency>
   </dependencies>
 
   <build>
