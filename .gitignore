@@ -31,4 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Embedded Tomcat ###
 /tomcat.**/
+/dependency-reduced-pom.xml
